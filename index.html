@@ -1,1 +1,124 @@
-<h1>This is my homepage</h1>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stephen Slas Bio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
+    <style>
+      html{
+        min-height: 100%;
+      }
+      body{
+        min-height: 100%;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background: linear-gradient(0deg, rgb(150, 116, 93), rgb(173, 132, 96), rgb(195, 148, 99), rgb(215, 167, 102), rgb(233, 186, 108), rgb(247, 207, 124), rgb(253, 230, 165), rgb(255, 251, 233)); --darkreader-inline-bgimage: linear-gradient(0deg, #7a6351, #82664c, #82613d, #846131, #846025, #624a17, #534213, #383110); --darkreader-inline-bgcolor: initial;
+        color: rgba(38, 22, 31, 1);
+        font-family: "Afacad Flux";
+      }
+      a{
+        color: rgba(54, 10, 73, 1);
+        text-decoration: none;
+      }
+      .main-container{
+        max-width: 640px;
+        margin: auto;
+      }
+      .item{
+        background-color: rgba(255, 146, 0, 0.5);
+        margin-bottom: 30px;
+        display: flex;
+        align-items: center;
+        border-radius: 1000px;
+        padding: 5px;
+        padding-right: 53px;
+        box-shadow: 26px 34px 29px 6px rgba(0,0,0,0.75);
+      }
+      .avatar-image{
+        width: 128px;
+        height: 128px;
+        object-fit: cover;
+        border-radius: 128px;
+      }
+      .thumbnail{
+        width: 48px;
+        height: 48px;
+        border-radius: 48px;
+        object-fit: cover;
+      }
+      .image-row{
+        margin-bottom: 30px;
+        text-align: center;
+      }
+      .name-row{
+        margin-bottom: 30px;
+        text-align: center;
+        font-family: "Verdana";
+        font-size: 24px;
+        font-weight: 900;
+      }
+      .social-icons-row{
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-around;
+      }
+      .link-text{
+        text-align: center;
+        flex-grow: 1;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="image-row">
+        <img class="avatar-image" src="/images/LinkedInProfile.jpg" alt="Profile photo of Stephen Slas">
+      </div>
+      <div class="name-row">
+        Stephen Slas
+      </div>
+      <div class="social-icons-row">
+        <a href="https://github.com/StephenSlas" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/stephenslas/" target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+
+        <a href="https://www.instagram.com" target="_blank">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+
+        <a href="https://twitter.com" target="_blank">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+      </div>
+      <div class="links-row">
+        <div class="item">
+          <img class="thumbnail" src="/images/class.jpg" alt="a computer classroom">
+          <a class="link-text" href="https://dpi.instructure.com/courses/303" target="_blank">
+            DPI Module
+          </a>
+        </div>
+        <div class="item">
+          <img class="thumbnail" src="/images/question.jpg" alt="a red question mark">
+          <a class="link-text" href="https://ask.firstdraft.com/forums/19-dpi-2024-9-1-intro/posts" target="_blank">
+            Ask
+          </a>
+        </div>
+        <div class="item"> 
+          <img class="thumbnail" src="/images/notes.jpg" alt="a notepad and pen"> 
+          <a class="link-text" href="https://dev.to/" target="_blank">
+            dev.to
+          </a>
+        </div>
+
+      </div>   <!-- links-row -->
+    </div>   <!-- main-container -->
+
+  </body>
+</html>
